@@ -28,14 +28,12 @@ img{
 p{
   text-align:center;
 }
-
 div img{
     width:150px;
     height: 150px;
     display:block;
     margin:auto;
 }
-
 div {
     display: block;
     width: 100%;
@@ -49,9 +47,9 @@ div {
         width: 45%;
     }
 
-    /* div img {
+    div img {
         max-height: 30vh;
-    } */
+    }
 }
 
 @media screen and (min-width: 998px) {
@@ -59,10 +57,6 @@ div {
         width: 30%;
     }
 }
-
-
-
-
 
 
 
