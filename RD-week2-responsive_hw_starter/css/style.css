@@ -49,20 +49,14 @@ div {
         width: 45%;
     }
 
-    div img {
+    /* div img {
         max-height: 30vh;
-    }
+    } */
 }
 
 @media screen and (min-width: 998px) {
     div {
         width: 30%;
-    }
-
-    div img {
-        width: 150px;
-        height: 150px;
-        max-height: none;
     }
 }
 
