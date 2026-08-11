@@ -28,12 +28,7 @@ img{
 p{
   text-align:center;
 }
-div img{
-    width:150px;
-    height: 150px;
-    display:block;
-    margin:auto;
-}
+/* Mobile */
 div {
     display: block;
     width: 100%;
@@ -41,6 +36,14 @@ div {
     padding: 2px;
 }
 
+div img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* Tablet */
 @media screen and (min-width: 772px) {
     div {
         display: inline-block;
@@ -52,13 +55,12 @@ div {
     }
 }
 
+/* Large screen */
 @media screen and (min-width: 998px) {
     div {
         width: 30%;
     }
 }
-
-
 
 
 
