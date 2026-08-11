@@ -29,7 +29,7 @@ p{
   text-align:center;
 }
 
-div img{
+/* div img{
     width:150px;
     height: 150px;
     display:block;
@@ -41,7 +41,7 @@ div{
   width: 24%;
   margin: 5px;
   padding: 2px;
-}
+} */
 div {
     display: block;
     width: 100%;
